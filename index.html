@@ -4,10 +4,12 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta name="description" 
+        content="BehaviorGaussian: Diverse Future Scene Synthesis via Agent Behavior Modeling and 3D Gaussian Splatting">
+ 
+  <!-- <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/> -->
+  <!-- <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/> -->
+  <!-- <meta property="og:url" content="URL OF THE WEBSITE"/> -->
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
   <meta property="og:image:width" content="1200"/>
@@ -24,10 +26,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>Behavior Gaussian</title>
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+        rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -52,28 +54,33 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">BehaviorGaussian: Diverse Future Scene Synthesis via Agent Behavior Modeling and 3D Gaussian Splatting</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+             <span class="author-block">
+              Kaizhao Zhang<sup>1</sup>,</span>
+            <span class="author-block">
+              Tian Niu<sup>1</sup>,</span>
+            <span class="author-block">
+              Ke Wu<sup>1</sup>,</span>
+            <span class="author-block">
+              Xiangyun Ren<sup>1</sup>,</span>
+            <span class="author-block">
+              Zhongxue Gan<sup>2</sup>,</span>
+            <span class="author-block">
+              Wenchao Ding<sup>1</sup>
+            </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                          <span class="author-block"><sup>1</sup>Fudan University,</span>
+                          <span class="author-block"><sup>2</sup>Chongqing Changan Automobile CO., Ltd.</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/pdf/2112.0877d6.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -83,7 +90,7 @@
                     </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,11 +98,11 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/zkz515/BehaviorGaussian" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -104,7 +111,7 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
+                <!-- ArXiv abstract Link
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
@@ -113,7 +120,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -123,22 +130,23 @@
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+
+<!-- Cover -->
+<div class="columns is-centered has-text-centered">
+  <div class="column is-full-width">
+    <img src="./static/images/cover.png"
+        class="interpolation-image"
+        alt="Cover Image."/>
+    <div class="content has-text-justified">
+      <p>
+       We propose BehaviorGaussian, a novel framework that integrates 3D Gaussian reconstruction with behavior-aware trajectory prediction for autonomous driving simulation. 
+       Our approach first reconstructs photorealistic environments through Gaussian splatting, then generates diverse future scenarios by predicting and simulating multiple agent trajectories within the reconstructed 3D space. 
+       This unified pipeline enables parallel simulation of diverse future scene synthesis, facilitating data generation for autonomous driving systems under various behavioral conditions.
+      </p>
     </div>
   </div>
-</section>
-<!-- End teaser video -->
+</div>
+<!-- End cover-->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +156,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          Autonomous driving simulation is critical for closed-loop validation of autonomous driving systems. 
+          In recent years, the development of NeRF and 3DGS technologies has enabled high-fidelity reconstruction and novel view synthesis, making it possible to bridge the sim2real gap in terms of image realism. 
+          This study presents a compact framework integrating scene-separated 3DGS reconstruction with trajectory prediction models.
+          BehaviorGaussian explicitly models dynamic object interactions to forecast agent trajectories, which are then unified with reconstructed environments for multi-scenario 3D world simulation. 
+          The 3DGS rendering pipeline concurrently generates visualizations of these parallel scenarios through temporally coherent video sequences. 
+          Experimental validation on the Waymo dataset confirms our framework's capability to simulate 3D parallel environments effectively, enhancing both simulation authenticity and functional versatility for autonomous driving system development.
           </p>
         </div>
       </div>
@@ -157,131 +170,48 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+<!-- Pipeline -->
+<div class="columns is-centered has-text-centered">
+  <div class="column is-full-width">
+  <h2 class="title is-3">Framework</h2>
+    <img src="./static/images/pip_pip.png"
+        class="interpolation-image"
+        alt="System Architecture Pipeline."/>
+    <div class="content has-text-justified">
+      <p>
+      Illustration of the comprehensive pipeline of our proposed framework for dynamic scene reconstruction and parallel scenario simulation. 
+      The diagram consists of three main components: 
+      </p>
+      <p>
+      (1) Scene Reconstruction Module, which takes multimodal inputs including LiDAR point clouds, camera images to generate a decomposed 3D Gaussian representation of the environment, separating static backgrounds, dynamic agents, and sky regions; 
+      </p>
+      <p>
+      (2) Trajectory Prediction Module, which utilizes historical agent trajectories and HD map priors to generate multiple plausible future trajectories for each agent;
+      </p>
+      <p>
+      (3) Parallel Scenario Simulation, where predicted trajectories are integrated into the reconstructed 3D scene to synthesize photorealistic video sequences of diverse future scenarios.
+      </p>
     </div>
   </div>
 </div>
+<!-- End pipeline -->
+
+
+<!-- Video -->
+<h3 class="title is-3">Video</h3>
+<div class="content has-text-centered">
+  <video id="replay-video"
+          controls
+          muted
+          preload
+          playsinline
+          width="100%">
+    <source src="./static/videos/video.mp4"
+            type="video/mp4">
+  </video>
 </div>
-</section>
-<!-- End image carousel -->
+<!--End video -->
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
 
 
   <footer class="footer">
